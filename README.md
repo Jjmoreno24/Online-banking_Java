@@ -5,30 +5,30 @@
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
 
 ## Development
-Emplee el uso de POO, Clases, Funciones.
-Manejo de Errores y Excepciones durante la ejecucion.<br>
-Menu de opciones.
+- Employ the use of poo, classes, functions. 
+- Handling errors and exceptions during execution.
+- Options Menu. 
 
 ## Operation 
-Interfaz que simula un cajero de banca en linea. La interface inicia con un menu corto donde solicita el nombre y numero de cuenta al usuario. Todo usuario inicial registrado tienen un saldo inicial de 1000.00
+Interface that simulates an online banking ATM. The interface starts with a short menu requesting the user's name and account number. All initial registered users have an initial balance of 1000.00
 
-Luego se muestra un segundo menu Deposito, Retiro y salir 
-la opcion deposito y retiro hace llamado a una funcion independiente del Main.
+Then a second menu is displayed Deposit, Withdrawal and Exit. 
+The Deposit and Withdrawal option calls a function independent of the Main.
 
-#### DEPOSITO 
-- Imprime el nombre del usuario y su número de cuenta con un saludo de la bienvenida.
-- Le da la opción al usuario de realizar un deposito o ver el saldo actualizado en la cuenta. 
-- Cuando el usuario ingresa un monto a depositar, se actualiza el valor en la cuenta y regresa al menú principal. 
+#### Depost 
+- Prints the user's name and account number with a welcome greeting.
+- Gives the user the option to make a deposit or view the updated balance in the account. 
+- When the user enters an amount to deposit, it updates the value in the account and returns to the main menu. 
 
-#### RETIRO 
-- Imprime el nombre del usuario y su número de cuenta con un saludo de la bienvenida.
-- Le da la opción al usuario de realizar un retiro o ver el saldo actual en la cuenta. 
-- Cuando el usuario ingresa el monto de retiro se debe verifica que tiene suficiente saldo y se actualiza el valor en la cuenta. 
-- Una vez actualizado el valor en la cuenta regresa al menú principal. 
+#### Withdrawal 
+- Prints the user's name and account number with a welcome greeting.
+- Gives the user the option to make a withdrawal or view the current balance in the account. 
+- When the user enters the withdrawal amount it verifies that he/she has sufficient balance and updates the value in the account. 
+- Once the value in the account is updated it returns to the main menu.
 
-#### SALIR
-- El usuario sale del menú principal. 
-- Se le muestra el nombre y un mensaje de despedida con el valor final de la cuenta. 
+#### Exit
+- The user exits the main menu.
+- You are shown the name and a farewell message with the final value of the account.
 
 
 ## 🔭 Execution
